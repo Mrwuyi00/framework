@@ -7,14 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="chapter3" />
-        <module name="framework" />
-        <module name="smart-framework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter3" target="1.5" />
-      <module name="framework" target="1.8" />
-      <module name="smart-framework" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
