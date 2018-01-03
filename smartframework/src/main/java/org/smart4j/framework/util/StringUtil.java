@@ -30,4 +30,12 @@ public class StringUtil {
     }
 
 
+    public static String[] spliteString(String str, String spliteStr){
+        if(isNotEmpty(str)){
+            return StringUtils.split(str, spliteStr);
+        }
+        return null;
+    }
+
+
 }
